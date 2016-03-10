@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+</head>
+<body>
+	<div class="container-fluid">
+		<nav>
+			<div class="nav-wrapper navshadow z-depth-2 cyan darken-2">
+				<a href="/" class="white-text brand-logo" ><img src="https://cdn0.iconfinder.com/data/icons/realty-1/512/doghouse-512.png" style="width:70px;height:60px">DogHome</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="sass.html" class="white-text">Sign Up</a></li>
+					<li><a href="badges.html" class="white-text">Login</a></li>
+					<li><a href="collapsible.html" class="white-text"><i class="material-icons">favorite</i></a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<%= yield %>
+
+<footer class="page-footer cyan darken-2">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+<!--         <h5 class="white-text">Footer Conten</h5>
+ -->        <p class="grey-text text-lighten-4"><i class="material-icons">question_answer</i>
+Give us Feedback!</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h6 class="white-text">Share with us</h6>
+          <div class="row">
+          <a class="grey-text text-lighten-3" href="#!"><img class="icon" src="https://cdn0.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/512/social_facebook_box_blue.png"></img></a>
+          <a class="grey-text text-lighten-3" href="#!"><img class="icon" src="http://www.wreckthetapedeck.com/wp-content/uploads/2013/10/David-Alexander-Willis-Hal-9000-2001-A-Space-Odyssey-instagram-icon.png"></img></a>
+          <a class="grey-text text-lighten-3" href="#!"><img class="icon" src="http://icons.iconarchive.com/icons/uiconstock/socialmedia/512/Twitter-icon.png"></img></a>
+          <a class="grey-text text-lighten-3" href="#!"><img class="icon" src="http://vignette2.wikia.nocookie.net/logopedia/images/c/c4/Pinterest-icon.png/revision/latest?cb=20121109020054"></img></a>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">Contact Us</a>
+    </div>
+  </div>
+</footer>
+	
+</body>
+
+</html>

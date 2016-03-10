@@ -1,0 +1,33 @@
+.searchbtn {
+	position: absolute;
+	top: 0;
+}
+
+.searchbox {
+	position: relative;
+}
+
+.cards {
+	margin-top: 80px
+}
+
+.card-title {
+	margin-top: 10px
+}
+
+.html {
+	font-family: 'Open Sans';
+
+}
+
+.index {
+	background-image: url("/assets/dogonbeach.jpg");
+	width: 100%; 
+	margin-top: -80px;
+	padding-bottom: 100px;
+	margin-bottom:-20px;
+
+}
+.cardmargin {
+	margin-top: 60px
+}

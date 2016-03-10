@@ -1,0 +1,36 @@
+.parallax-container {
+      height: "your height here";
+    }
+
+.input-field {
+	margin-top: 400px;
+/*	opacity: .9 ;
+*/}
+
+.searchcontainer {
+	max-width:600px;
+}
+
+.html {
+	font-family: 'Open Sans';
+
+}
+.icon {
+	height:25px;
+	width:26px;
+}
+.sitetitle
+{
+	font-family: 'Open Sans';
+	font-weight: 900;
+}
+.iconrow {
+	margin-top: 60px
+}
+
+.blockquote {
+	border-left: 5px solid #ffeb3b;
+}
+nav ul li:hover {
+   background-color: yellow;
+}

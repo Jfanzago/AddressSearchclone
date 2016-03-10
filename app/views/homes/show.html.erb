@@ -1,0 +1,105 @@
+<div class="container-fluid grey lighten-4">
+  <div class="row center-align">
+    <img class="homeimage" src="http://www.hibernianhomesolutions.com/wp-content/uploads/2015/10/modern-home-design-backyard.jpg" width="300"></img>
+    <img class="homeimage" src="http://www.pattayapropertyfinder.com/WebImages/PFH10768/Thailand-Pattaya-Property-House-for-Rent19.jpg"></img>
+    <img class="homeimage" src="http://www.letsgopattaya.com/images/house-for-rent-in-pattaya.png"></img><br>
+    <img class="homeimage" src="http://www.ferien-miete.de/objectpics/img4dac0a7e6f7c97.79134854.jpg"></img>
+    <img class="homeimage" src="http://de-index.com/wp-content/uploads/2015/09/traditional-home-garage-with-modern-sports-car-inside-also-perfected-with-nice-pendant-lamps.jpg"></img>
+  </div>
+</div>
+<div class="font container">
+  <div class="row center-align">
+    <h5><%= @homes.address%>
+    <%= @homes.city %>,
+    <%= @homes.state %>
+    <%= @homes.zip %>
+    </h5>
+  </div>
+  
+  <div class="row">
+    <div class="col s6 center-align">
+      <i class="material-icons">date_range</i> <span>   Available to move in by:  <%= @homes.date %></span>
+    </div>
+    <!-- Modal Trigger -->
+    <div class="col s6 ">
+      <a class="modal-trigger waves-effect waves-light btn" href="#modal1">Contact Form</a>
+    </div>
+    </div>
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal modal-fixed-footer">
+        <div class="font modal-content">
+          <h4>Contact Information</h4>
+          <div class="chip">
+            <img src="http://blog.chemistry.com/wp-content/uploads/2012/09/man-smiling.jpg" alt="Contact Person"><%= @homes.name %>
+          </div>
+          <div class="row">
+          <p>E-mail: <%= @homes.email%></p>
+          <p>Phone Number: <%= @homes.phone_number%></p>
+          </div>
+          <div class="row">
+            <input placeholder="first name" type="text">
+          </div> 
+          <div class="row">
+           <input placeholder="last name" type="text">
+          </div>
+          <div class="row">
+         <div class="btn">
+            <span>File</span>
+            <input type="file">
+          </div>
+        
+        </div>
+        </div>
+          </div>
+    
+    <div class="row">
+      <div class="col s4">
+        <i class="material-icons">home</i><span style="margin-left:1.25em">Home Attributes:</span>
+      </div>
+      <div class="col s4">
+        <blockquote class="blockquote">
+          <ul>
+            <li>Beds: 5 </li>
+            <li>Bath: 4</li>
+            <li>Washer/Dryer: YES </li>
+            <li>Garage: YES </li>
+            <li>Backyard: YES </li>
+          </ul>
+        </blockquote>
+      </div>
+      <div class="col s4">
+        <ul>
+          <li>Sqft: 2,552</li>
+          <li>Microwave: YES  </li>
+          <li>Furnished?  NO </li>
+          <li>Breed Limitation: None  </li>
+          <li>Weight Limit: None </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s4">
+        <i class="material-icons">motorcycle</i><span style="margin-left:1.25em">  Neighborhood Details: </span>
+      </div>
+      <div class="col s4">
+        <blockquote class="blockquote">
+          <ul>
+            <li>Nearby Dog Parks: Bull Creek Dog Park </li>
+            <li>Dog Trails: Sunny Isle Trails, Brookehaven Trail </li>
+          </ul>
+        </blockquote>
+      </div>
+      <div class="col s4">
+        <ul>
+          <li>Veterinarians:</li> <li>Banfield (within 10 mi.)</li>
+          <li>Pet Stores: Petsmart (within 4 mi.)</li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+<div class="container-fluid grey lighten-4 center-align">
+  <img class="center-align "src="https://maps.googleapis.com/maps/api/staticmap?zoom=15&size=440x380&maptype=roadmap&markers=30.365917,-97.787308&key=AIzaSyDtmnH6A3wXzeodRMsMRqsdumpIAHXRsVw&sensor=false"></img>
+</div>
