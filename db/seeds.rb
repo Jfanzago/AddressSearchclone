@@ -43,6 +43,23 @@ Home.create(
 	phone_number: Faker::PhoneNumber.phone_number,
 	images: images[i]
 )
-
 end
+
+# User Seed
+
+clark, tony, rick = User.create ([
+	{name: 'Clark Kent', email: 'clark@ironhack.com', password: 'ironhack', password_confirmation:'ironhack'},
+	{name: 'Tony Stark', email: 'tony@ironhack.com', password: 'ironhack', password_confirmation:'ironhack'},
+	{name: 'Rick Grimes', email: 'rick@ironh'
+		
+	])
+	}
+	}
+
+
+
+
+
+
+
 
